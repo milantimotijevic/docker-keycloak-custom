@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="46c62a80-203b-45bd-9929-d11ffeb0da85" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cool-theme-of-awesomeness/login/register.ftl" beforeDir="false" afterPath="$PROJECT_DIR$/cool-theme-of-awesomeness/login/register.ftl" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,8 +25,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/cool-theme-of-awesomeness/login" />
       <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/cool-theme-of-awesomeness/login" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -53,7 +53,8 @@
       <updated>1571124151196</updated>
       <workItem from="1571124152607" duration="3780000" />
       <workItem from="1571144286380" duration="1215000" />
-      <workItem from="1571215873933" duration="2549000" />
+      <workItem from="1571215873933" duration="2971000" />
+      <workItem from="1571312801656" duration="321000" />
     </task>
     <servers />
   </component>

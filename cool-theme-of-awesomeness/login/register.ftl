@@ -4,22 +4,14 @@
         ${msg("registerTitle")}
     <#elseif section = "form">
         <form id="kc-register-form" class="${properties.kcFormClass!}" action="${url.registrationAction}" method="post">
-            <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('powerLevel',properties.kcFormGroupErrorClass!)}">
-                <div class="${properties.kcLabelWrapperClass!}">
-                    <label for="powerLevel" class="${properties.kcLabelClass!}">${msg("Power Level")}</label>
-                </div>
-                <div class="${properties.kcInputWrapperClass!}">
-                    <input type="text" id="powerLevel" class="${properties.kcInputClass!}" name="powerLevel" value="${(register.formData.powerLevel!'')}" />
-                </div>
-            </div>
-            <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('firstName',properties.kcFormGroupErrorClass!)}">
                 <div class="${properties.kcLabelWrapperClass!}">
                     <label for="firstName" class="${properties.kcLabelClass!}">${msg("firstName")}</label>
                 </div>
                 <div class="${properties.kcInputWrapperClass!}">
-                   <input type="text" id="firstName" class="${properties.kcInputClass!}" name="firstName" value="${(register.formData.firstName!'')}" />
+                    <input type="text" id="firstName" class="${properties.kcInputClass!}" name="firstName" value="${(register.formData.firstName!'')}" />
                 </div>
             </div>
+
             <div class="${properties.kcFormGroupClass!} ${messagesPerField.printIfExists('lastName',properties.kcFormGroupErrorClass!)}">
                 <div class="${properties.kcLabelWrapperClass!}">
                     <label for="lastName" class="${properties.kcLabelClass!}">${msg("lastName")}</label>
